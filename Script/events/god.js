@@ -12,7 +12,7 @@ module.exports.config = {
 module.exports.run = async function({ api, event, Threads }) {
     const logger = require("../../utils/log");
     if (!global.configModule[this.config.name].enable) return;
-    var formReport =  "=== 𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 Notification ===" +
+    var formReport =  "=== FMZ RAJA ViP 5X  Notification ===" +
                         "\n\n» Thread mang ID: " + event.threadID +
                         "\n» Action: {task}" +
                         "\n» Action created by userID: " + event.author +
